@@ -92,6 +92,3 @@ Every error hit along the way, with its cause and fix: **[docs/troubleshooting.m
 - [ ] Back up `/mnt/kasm_profiles` regularly
 - [ ] Optionally put **Cloudflare Access** (email one-time code) in front of the site
 
-## License
-
-No license has been chosen yet. Add one (for example MIT) if you want others to reuse the scripts.
