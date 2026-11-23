@@ -1,0 +1,13 @@
+[Unit]
+Description=Enable Kasm docker plugins before Kasm starts (slow VM fix)
+After=docker.service
+Requires=docker.service
+Before=kasm.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/kasm-fix-plugins.sh
+TimeoutStartSec=600
+
+[Install]
+WantedBy=multi-user.target

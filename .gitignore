@@ -1,0 +1,14 @@
+# Never commit secrets
+token
+*.token
+*credentials*
+*.env
+.env*
+
+# Local VM / disk files
+*.vdi
+*.vhd
+*.vhdx
+*.iso
+kasm_release*/
+kasm_release*.tar.gz
